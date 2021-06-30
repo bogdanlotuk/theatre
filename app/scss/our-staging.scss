@@ -4,6 +4,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
     &__title {
         font-family: "Open Sans Condensed";
@@ -13,7 +14,60 @@
         line-height: 65px;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        margin-bottom: 650px;
+        margin-bottom: 100px;
     }
-    &__slider {}
+    &__slider {
+        width: 100%;
+        padding-left: 150px;
+    }
+    .swiper-container {
+        width: 100%;
+    }
+    .swiper-our-staging {
+    }
+    .swiper-wrapper {
+    }
+    .swiper-slide {
+        &__link {
+            min-width: 442px;
+            position: relative;
+        }
+        &__link:hover {
+            color: inherit;
+        }
+        &__img {
+        }
+        &__title {
+            position: absolute;
+            top: 40px;
+            left: 40px; 
+            font-family: Open Sans Condensed;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+        &__text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-bottom: 0;
+            bottom: 80px;
+            left: -15px; 
+            font-family: Open Sans Condensed;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            transform: rotate(-90deg);
+        }
+    }
+    .card {
+        border: none;
+    }
+
 }

@@ -1,0 +1,19 @@
+.our-staging {
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 65px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 650px;
+    }
+    &__slider {}
+}

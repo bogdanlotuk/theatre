@@ -1,0 +1,25 @@
+.partners {
+    .container-fluid {
+    }
+    &__inner {
+        margin: 0 auto;
+        max-width: 1110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 65px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        // margin-bottom: 100px;
+        margin-bottom: 372px;
+    }
+    &__slider {}
+}
+

@@ -1,0 +1,45 @@
+.patron {
+    &__inner {
+        margin: 0 auto;
+        padding: 120px 0 80px;
+        max-width: 1110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 65px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+    }
+    &__general {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__info {}
+    &__info-phone {}
+    &__info-phone-link {}
+    &__info-address {}
+    &__info-address-mail {}
+    &__info-address-location {}
+    &__mailing {}
+    &__mailing-form {}
+}
+.container-fluid {
+}
+.form {
+    &__name {}
+    &__company {}
+    &__phone {}
+    &__email {}
+    &__textarea {}
+    &__text {}
+    &__btn {}
+}

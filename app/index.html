@@ -16,8 +16,8 @@
     <div class="wrapper">
         <header class="header">
             <div class="container-fluid">
-                <div class="header__inner">
-                    <div class="header__top">
+                <div class="header__top">
+                    <div class="header__top-inner">
                         <nav class="header__navigation">
                             <ul class="header__menu menu-list">
                                 <li class="menu-list__item"><a class="menu-list__item-link" href="#">главная</a></li>
@@ -40,8 +40,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="header__center row">
-                        <div class="header__center-main-text col-lg-6">
+                </div>
+                <div class="header__center">
+                    <div class="header__center-inner row">
+                        <div class="header__center-main-text col-lg-12 col-xl-6">
                             <h1 class="header__center-title">большой театр</h1>
                             <p class="header__center-text">
                                 Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 
@@ -50,7 +52,48 @@
                             </p>
                             <a class="header__center-btn">афиша</a>
                         </div>
-                        <div class="header__center-slider col-lg-6"></div>
+                        <div class="header__center-slider col-xl-6">
+                            <div class="swiper-container swiper-header">
+                                <!-- Additional required wrapper -->                                
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->                                    
+                                    <div class="swiper-slide card">
+                                        <a class="swiper-slide__link" href="#">
+                                            <div class="swiper-slide__inner">
+                                                <img class="swiper-slide__img img-fluid" src="img/header__slider.png" alt="">
+                                            </div>                                        
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide card">
+                                        <a class="swiper-slide__link" href="#">
+                                            <div class="swiper-slide__inner">
+                                                <img class="swiper-slide__img img-fluid" src="img/header__slider.png" alt="">
+                                            </div>                                        
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide card">
+                                        <a class="swiper-slide__link" href="#">
+                                            <div class="swiper-slide__inner">
+                                                <img class="swiper-slide__img img-fluid" src="img/header__slider.png" alt="">
+                                            </div>                                        
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide card">
+                                        <a class="swiper-slide__link" href="#">
+                                            <div class="swiper-slide__inner">
+                                                <img class="swiper-slide__img img-fluid" src="img/header__slider.png" alt="">
+                                            </div>                                        
+                                        </a>
+                                    </div>            
+                                </div>
+                                <div class="swiper-bottom">
+                                    <div class="swiper-buttons">
+                                        <button class="swiper-buttons-prev" tabindex="0" aria-label="Previous slide"></button>
+                                        <button class="swiper-buttons-next" tabindex="0" aria-label="Next slide"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,7 +146,9 @@
                                 <div class="swiper-slide card">
                                     <a class="swiper-slide__link" href="#">
                                         <div class="swiper-slide__inner">
-                                            <img class="swiper-slide__img img-fluid" src="img/our-staging__oscar.jpg" alt="">
+                                            <img class="swiper-slide__img" src="img/our-staging__oscar.jpg" alt="">
+                                            <div class="swiper-slide__overlay"></div>
+                                            <div class="swiper-slide__more-details"></div>
                                             <h3 class="swiper-slide__title">оскар 2020</h3>
                                             <p class="swiper-slide__text">сентябрь 2020</p>
                                         </div>
@@ -112,7 +157,9 @@
                                 <div class="swiper-slide card">
                                     <a class="swiper-slide__link" href="#">
                                         <div class="swiper-slide__inner">
-                                            <img class="swiper-slide__img img-fluid" src="img/our-staging__square.jpg" alt="">
+                                            <img class="swiper-slide__img" src="img/our-staging__square.jpg" alt="">
+                                            <div class="swiper-slide__overlay"></div>
+                                            <div class="swiper-slide__more-details"></div>
                                             <h3 class="swiper-slide__title">оскар 2020</h3>
                                             <p class="swiper-slide__text">сентябрь 2020</p>
                                         </div>
@@ -121,7 +168,9 @@
                                 <div class="swiper-slide card">
                                     <a class="swiper-slide__link" href="#">
                                         <div class="swiper-slide__inner">
-                                            <img class="swiper-slide__img img-fluid" src="img/our-staging__gold-gramophone.jpg" alt="">
+                                            <img class="swiper-slide__img" src="img/our-staging__gold-gramophone.jpg" alt="">
+                                            <div class="swiper-slide__overlay"></div>
+                                            <div class="swiper-slide__more-details"></div>
                                             <h3 class="swiper-slide__title">оскар 2020</h3>
                                             <p class="swiper-slide__text">сентябрь 2020</p>
                                         </div>
@@ -130,7 +179,53 @@
                                 <div class="swiper-slide card">
                                     <a class="swiper-slide__link" href="#">
                                         <div class="swiper-slide__inner">
-                                            <img class="swiper-slide__img img-fluid" src="img/our-staging__nutcracker.jpg" alt="">
+                                            <img class="swiper-slide__img" src="img/our-staging__nutcracker.jpg" alt="">
+                                            <div class="swiper-slide__overlay"></div>
+                                            <div class="swiper-slide__more-details"></div>
+                                            <h3 class="swiper-slide__title">оскар 2020</h3>
+                                            <p class="swiper-slide__text">сентябрь 2020</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide card">
+                                    <a class="swiper-slide__link" href="#">
+                                        <div class="swiper-slide__inner">
+                                            <img class="swiper-slide__img" src="img/our-staging__oscar.jpg" alt="">
+                                            <div class="swiper-slide__overlay"></div>
+                                            <div class="swiper-slide__more-details"></div>
+                                            <h3 class="swiper-slide__title">оскар 2020</h3>
+                                            <p class="swiper-slide__text">сентябрь 2020</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide card">
+                                    <a class="swiper-slide__link" href="#">
+                                        <div class="swiper-slide__inner">
+                                            <img class="swiper-slide__img" src="img/our-staging__square.jpg" alt="">
+                                            <div class="swiper-slide__overlay"></div>
+                                            <div class="swiper-slide__more-details"></div>
+                                            <h3 class="swiper-slide__title">оскар 2020</h3>
+                                            <p class="swiper-slide__text">сентябрь 2020</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide card">
+                                    <a class="swiper-slide__link" href="#">
+                                        <div class="swiper-slide__inner">
+                                            <img class="swiper-slide__img" src="img/our-staging__gold-gramophone.jpg" alt="">
+                                            <div class="swiper-slide__overlay"></div>
+                                            <div class="swiper-slide__more-details"></div>
+                                            <h3 class="swiper-slide__title">оскар 2020</h3>
+                                            <p class="swiper-slide__text">сентябрь 2020</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide card">
+                                    <a class="swiper-slide__link" href="#">
+                                        <div class="swiper-slide__inner">
+                                            <img class="swiper-slide__img" src="img/our-staging__nutcracker.jpg" alt="">
+                                            <div class="swiper-slide__overlay"></div>
+                                            <div class="swiper-slide__more-details"></div>
                                             <h3 class="swiper-slide__title">оскар 2020</h3>
                                             <p class="swiper-slide__text">сентябрь 2020</p>
                                         </div>

@@ -1,0 +1,110 @@
+@media (max-width: 1399.98px) { 
+    .header {
+        &__top-inner {
+            flex-direction: column;
+            align-items: center
+            
+        }
+    }
+    .about-theatre {
+        &__landscape {
+            display: none;
+        }
+    }
+    .patron {
+        &__general {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: space-between;
+            width: 690px;
+            gap: 80px;
+        }
+        &__info {
+            // max-width: 730px;
+            min-width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 0;
+        }
+        &__info-address {
+            align-items: flex-end;
+        }
+        &__mailing {
+            width: 690px;
+        }
+        .form {
+            grid-template-columns: 180px 180px 270px;
+            gap: 30px;
+            &__textarea {
+                width: 270px;
+            }
+        }
+    }
+}
+@media (max-width: 1199.98px) { 
+    .header {
+        &__top {
+            padding: 51px 20px 51px 190px;
+        }
+        &__center-slider {
+            display: none;
+            
+        }
+        &__center-main-text {
+            max-width: 540px;
+            margin: 231px 0 365px;
+            
+        }
+    }
+    .menu-list {
+        &__item + &__item{
+            margin-left: 30px;
+        }
+    }
+    .about-theatre {
+        .container-fluid {
+            padding: 0 110px 0 190px;
+        }
+        &__numbers {
+            min-width: 210px;
+        }
+    }
+    .our-staging {
+        &__slider {
+            width: 690px;
+            padding-left: 40px;
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .header {
+        &__navigation {
+            display: none;
+        }
+        &__top {
+            padding: 0;
+        }
+        &__phone {
+            position: absolute;
+            top: 56px;
+            right: 39px;
+        }
+        &__center-main-text {
+            max-width: 540px;
+            margin: 252px 0 351px;
+            
+        }
+    }
+
+}
+
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+
+}

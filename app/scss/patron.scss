@@ -1,4 +1,7 @@
 .patron {
+    .container-fluid {
+        padding: 0 170px;
+    }
     &__inner {
         margin: 0 auto;
         padding: 120px 0 80px;
@@ -115,7 +118,7 @@
         font-weight: 600;
         font-size: 12px;
         line-height: 150%;
-        color: #989898;
+        color: #fff;
         text-transform: capitalize;
         
     }

@@ -1,42 +1,60 @@
 .header {
+    
     .container-fluid {
         background: url(../img/header__bg.jpg) no-repeat center;
         background-size: cover;
     }
-    &__inner {
+    &__top-inner {
         margin: 0 auto;
         max-width: 1110px;
-    }
-    &__top {
         display: flex;
         justify-content: space-between;
-        padding: 51px 0;
+    }
+    &__top {
+        padding: 51px 170px;
     }
     &__navigation {}
     &__menu {}
     &__phone {}
     &__phone-link {
-        font-family: Open Sans Condensed;
+        font-family: 'Open Sans Condensed';
         font-style: normal;
         font-weight: bold;
         font-size: 16px;
         line-height: 22px;
         letter-spacing: 0.05em;
         text-transform: uppercase;
-    }
+        padding-bottom: 5px;
+    }             
     &__phone-link:hover {
         color: inherit;
+        border-bottom: 2px solid #D1A954;
+        padding-bottom: 5px;
     }
-    &__center {}
+    &__center {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 170px;
+    }
+    &__top-inner {
+        margin: 0 auto;
+        max-width: 1110px;
+        display: flex;
+        justify-content: space-between;
+    }
     &__center-main-text {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        margin: 256px 0 365px;
+        padding-left: 0;
+        // max-width: 540px;
+        margin: 250px 0 365px;
+        
     }
     &__center-title {
-        font-family: Open Sans Condensed;
+        font-family: 'Open Sans Condensed';
         font-style: normal;
         font-weight: 700;
         font-size: 64px;
@@ -54,7 +72,7 @@
         margin-bottom: 50px;
     }
     &__center-btn {
-        font-family: Open Sans Condensed;
+        font-family: 'Open Sans Condensed';
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
@@ -75,7 +93,63 @@
     &__center-btn:hover {
         color: inherit;
     }
-    &__center-slider {}
+    &__center-slider {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 130px;
+        padding-left: 45px;
+    }
+    .swiper-container {
+        width: 370px;
+    }
+    .swiper-header {
+    }
+    .swiper-wrapper{
+        position: relative;
+    }
+    .swiper-bottom {
+        width: 370px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+    .swiper-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 25px;
+        &-prev {
+            // display: block;
+            // position: static;
+            border: none;
+            width: 108px;
+            height: 25px;
+            background: url(../img/prev-arrow.svg) no-repeat center;
+        }
+        &-next {
+            position: static;
+            border: none;
+            width: 108px;
+            height: 25px;
+            background: url(../img/next-arrow.svg) no-repeat center;
+            // display: block;
+        }
+    }
+    .swiper-wrapper {
+    }
+    .swiper-slide {
+            &__link {}
+            &__inner {}
+            &__img {}
+    }
+    .card {
+        border: none;
+        background: transparent;
+    }
+    .img-fluid {
+    }
+    
 }
 
 .menu-list {
@@ -86,16 +160,18 @@
         margin-left: 63px;
     }
     &__item-link {
-        font-family: Open Sans Condensed;
+        font-family: 'Open Sans Condensed';
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
         line-height: 25px;
         letter-spacing: 0.1em;
         text-transform: uppercase;
+        padding-bottom: 5px;
     }
     &__item-link:hover {
         color: inherit;
+        border-bottom: 2px solid #D1A954;
     }
 }
 .fixed-contacts {
@@ -112,12 +188,12 @@
     
 }
 .contacts {
-    padding-top: 250px;
+    padding-top: 16%;
     &__text {
         writing-mode: vertical-rl;
         transform: rotate(180deg);
         margin-bottom: 40px;
-        font-family: Open Sans Condensed;
+        font-family: 'Open Sans Condensed';
         font-style: normal;
         font-weight: 700;
         font-size: 18px;

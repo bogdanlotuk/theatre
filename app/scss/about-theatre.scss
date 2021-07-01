@@ -1,4 +1,7 @@
 .about-theatre {
+    .container-fluid {
+        padding: 0 170px;
+    }
     &__inner {
         margin: 0 auto;
         padding: 150px 0;
@@ -71,7 +74,5 @@
     &__landscape-img {
         
     }
-}
-.container-fluid {
 }
 

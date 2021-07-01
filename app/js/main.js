@@ -13,11 +13,11 @@ let mySwiper2 = new Swiper (".swiper-container.swiper-our-staging", {
     loop: true,
     breakpoints: {
         320: {
-            slidesPerView: 1.1,
+            slidesPerView: 1.3,
             spaceBetween: 0
         },
         576: {
-            slidesPerView: 1.3,
+            slidesPerView: 1.6,
             spaceBetween: 0
         },
         768: {
@@ -50,7 +50,7 @@ let mySwiper3 = new Swiper (".swiper-container.swiper-partners-first", {
             spaceBetween: 20
         },
         768: {
-            slidesPerView: 2,
+            slidesPerView: 2.5,
             spaceBetween: 20
         },
         992: {
@@ -76,7 +76,7 @@ let mySwiper4 = new Swiper (".swiper-container.swiper-partners-second", {
             spaceBetween: 20
         },
         768: {
-            slidesPerView: 2,
+            slidesPerView: 2.5,
             spaceBetween: 20
         },
         992: {

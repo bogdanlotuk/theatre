@@ -1,3 +1,9 @@
+document.getElementById('burger').onclick = function() {
+    this.classList.toggle('burger--active');
+    document.getElementById('navigation').classList.toggle('header__navigation--active');
+}
+
+
 let mySwiper1 = new Swiper (".swiper-container.swiper-header", {
     loop: true,
     slidesPerView: 1,

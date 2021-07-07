@@ -1,8 +1,7 @@
 .header {
     
     .container-fluid {
-        background: url(../img/header__bg.jpg) no-repeat center;
-        background-size: cover;
+        background: center / cover no-repeat url(../img/header__bg.jpg);
     }
     &__top-inner {
         margin: 0 auto;
